@@ -14,8 +14,6 @@ class Item {
     getName() {
         return this.name;
     }
-
-    //Hej Hej
 }
 
 class Snack extends Item {
