@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: rgb(225, 199, 243);
+    color: rgb(88, 7, 7);
+}
+
+li{
+    list-style: none;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin-bottom: 5px;
+    padding: 10px;
+   
+}
+
+#searchButton:hover {
+    background-color: rgb(247, 246, 246);
+    
+}
+
+.dineOption {
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+#orderHistory {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(21, 21, 20);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 70%; /* Adjust the width as needed */
+    max-width: 300px; /* Optionally set a maximum width */
+    margin: 20px auto;
+}
+
+.picture {
+    width:200px;
+    height:100px;
+}

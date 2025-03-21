@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pejs bar.css">
+    <title>Pejs bar</title>
+  </head>
+  <body>
+          <img id="bild" src="https://t4.ftcdn.net/jpg/10/77/53/03/240_F_1077530331_gCMrn1PBWWjYOPn2LBXmk6EYeFLgOx2N.jpg" alt="Bild på dryck-glas" class="picture">
+        <h1>Pejs bar</h1>
+
+        <h2>Meny</h2>
+
+    
+        <h3>Dryck</h3>
+        <label for="type">Välj drinktyp:</label>
+        <select name="" id="drycktyp">
+          <option value="All">All</option>
+          <option value="Alkohol">Alkohol</option>
+          <option value="Cocktails">Cocktails</option>
+          <option value="Alkoholfritt">Alkoholfritt</option>
+        </select>
+        <option value=""></option>
+        <ul id="dryckesmeny"></ul>
+
+        <h3>Snacks</h3>
+        <ul id="snacksmeny"></ul>
+      
+        
+        <h2>Beställ i baren</h2>
+        <form>
+            <input type="text" id="produkt" placeholder="Skriv din beställning...">
+            <input type="number" id="antal" placeholder="Skriv antal">
+          <select class="dineOption" id="dineOption">
+          <option value="Äta här">Äta här</option>
+          <option value="Takeaway">Take Away</option>
+          </select>
+        </form>
+        <button id="bestallKnapp">Beställ</button>
+
+        <h2>Beställningar</h2>
+        <ul id="bestallningar">
+          
+        </ul>
+
+        <button id="createReceipt">Kvitto</button>
+        <button id="Reset">Reset</button>
+        <button id="allakvittoBtn">Kvittohistorik</button>
+        <div id="receiptContainer">Kvitto</div>
+        <div id="allakvitto"></div>
+        <div id="orderhistory"></div>
+    </main>
+
+	<script src="Pejs bar.js"></script>
+  </body>
+</html>
