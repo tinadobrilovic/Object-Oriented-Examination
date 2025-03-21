@@ -261,3 +261,5 @@ document.getElementById("drycktyp").addEventListener("change", function() {
 document.getElementById("Reset").addEventListener("click", function() {
     baren.reset();
 });
+
+baren.printMenu();
